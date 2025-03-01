@@ -72,5 +72,5 @@
 #undef ENABLE_RGB_MATRIX_STARLIGHT_DUAL_SAT
 #undef ENABLE_RGB_MATRIX_RIVERFLOW
 
-# arry's mods
+// arry's mods
 #define CHORDAL_HOLD
