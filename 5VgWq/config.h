@@ -4,7 +4,7 @@
 */
 
 #undef TAPPING_TERM
-#define TAPPING_TERM 170
+#define TAPPING_TERM 155
 
 #define PERMISSIVE_HOLD
 
@@ -16,7 +16,7 @@
 #define MOUSEKEY_MAX_SPEED 6
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "5VgWq/0WW974"
+#define SERIAL_NUMBER "5VgWq/6aa9Vl"
 #define LAYER_STATE_8BIT
 #define COMBO_COUNT 1
 
