@@ -1,8 +1,3 @@
-/*
-  Set any config.h overrides for your specific keymap here.
-  See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
-*/
-
 #undef TAPPING_TERM
 #define TAPPING_TERM 155
 
@@ -16,7 +11,7 @@
 #define MOUSEKEY_MAX_SPEED 6
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "5VgWq/6aa9Vl"
+#define SERIAL_NUMBER "5VgWq/Qzz6dz"
 #define LAYER_STATE_8BIT
 #define COMBO_COUNT 1
 
