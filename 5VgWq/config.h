@@ -69,3 +69,4 @@
 
 // arry's mods
 #define CHORDAL_HOLD
+#define RETRO_TAPPING_PER_KEY

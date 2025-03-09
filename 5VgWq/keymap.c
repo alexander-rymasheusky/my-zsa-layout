@@ -143,3 +143,14 @@ const char chordal_hold_layout[MATRIX_ROWS][MATRIX_COLS] PROGMEM =
 '*','L','L','L','L','*','*','R','R','R','R','R',
 '*','*','*','*','*','*'
       );
+
+bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case MT(MOD_LALT, KC_SPACE):
+            return true;
+        case MT(MOD_RSFT, KC_L):
+            return true;
+        default:
+            return false;
+    }
+}
