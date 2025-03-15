@@ -1,4 +1,4 @@
-name: Fetch and build layout - voy
+name: f&b layout - voy
 
 on:
   workflow_dispatch:
