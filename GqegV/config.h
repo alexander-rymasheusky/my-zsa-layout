@@ -80,3 +80,4 @@
 
 // arry's mods
 #define RETRO_TAPPING_PER_KEY
+#define PERMISSIVE_HOLD_PER_KEY

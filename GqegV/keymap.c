@@ -263,3 +263,13 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
             return false;
     }
 }
+
+bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case MT(MOD_RSFT, KC_L):
+            return false;
+        default:
+            // Immediately select the hold action when another key is tapped.
+            return true;
+    }
+}
