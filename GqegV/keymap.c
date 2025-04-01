@@ -257,7 +257,11 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
             return true;
         case MT(MOD_RSFT, KC_DOT):
             return true;
+        case MT(MOD_RSFT, KC_L):
+            return true;
         case MT(MOD_LSFT, KC_6):
+            return true;
+        case LT(4,KC_M):
             return true;
         default:
             return false;
