@@ -1,6 +1,6 @@
 #define CHORDAL_HOLD
 #undef TAPPING_TERM
-#define TAPPING_TERM 140
+#define TAPPING_TERM 135
 
 #define PERMISSIVE_HOLD
 
@@ -21,7 +21,7 @@
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 30
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "GqegV/dPZn0g"
+#define SERIAL_NUMBER "GqegV/EeWAxG"
 #define LAYER_STATE_8BIT
 #define COMBO_COUNT 3
 

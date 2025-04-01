@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_voyager(
     TD(DANCE_0),    KC_1,           KC_2,           KC_3,           KC_4,           KC_5,                                           KC_7,           KC_8,           KC_9,           KC_0,           KC_MINUS,       KC_EQUAL,       
     KC_TAB,         KC_Q,           KC_W,           LT(3,KC_E),     KC_R,           KC_T,                                           KC_Y,           KC_U,           ALL_T(KC_I),    KC_O,           KC_P,           KC_BSLS,        
-    KC_BSPC,        MT(MOD_LGUI, KC_A),MT(MOD_LSFT, KC_S),MT(MOD_LALT, KC_D),MT(MOD_LCTL, KC_F),KC_G,                                           KC_H,           MT(MOD_RCTL, KC_J),MT(MOD_RALT, KC_K),KC_L,           MT(MOD_RGUI, KC_SCLN),KC_QUOTE,       
+    KC_BSPC,        MT(MOD_LGUI, KC_A),MT(MOD_LSFT, KC_S),MT(MOD_LALT, KC_D),MT(MOD_LCTL, KC_F),KC_G,                                           KC_H,           MT(MOD_RCTL, KC_J),MT(MOD_RALT, KC_K),MT(MOD_RSFT, KC_L),MT(MOD_RGUI, KC_SCLN),KC_QUOTE,       
     MT(MOD_LSFT, KC_6),KC_Z,           KC_X,           KC_C,           LT(2,KC_V),     KC_B,                                           KC_N,           LT(4,KC_M),     KC_COMMA,       MT(MOD_RSFT, KC_DOT),KC_SLASH,       KC_ENTER,       
                                                     MT(MOD_LALT, KC_SPACE),TD(DANCE_1),                                    KC_ESCAPE,      KC_SPACE
   ),
@@ -65,11 +65,11 @@ combo_t key_combos[COMBO_COUNT] = {
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case MT(MOD_LSFT, KC_6):
-            return TAPPING_TERM -60;
+            return TAPPING_TERM -55;
         case MT(MOD_LALT, KC_SPACE):
-            return TAPPING_TERM -40;
-        case KC_L:
-            return TAPPING_TERM -120;
+            return TAPPING_TERM -35;
+        case MT(MOD_RSFT, KC_L):
+            return TAPPING_TERM -15;
         default:
             return TAPPING_TERM;
     }
